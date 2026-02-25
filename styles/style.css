@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 92px 30px 96px 50px;
+    padding: 93px 30px 96px 15px;
     width: 100%;
     height: 293px;
 }
@@ -24,27 +24,36 @@
     font-weight: 400;
     font-family: Raleway, sans-serif;
     color: #000;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
+    margin-top: -4px;
 }
 
 .navigation__item:first-child {
     list-style: none;
 }
 
+.navigation__item:last-child {
+    list-style: none;
+    margin-right: -10px;
+}
+
 .navigation__link-active {
     text-decoration: none;
 }
 
-.header__logo{
-}
-
 .header__logo-img {
-    width: 129.11px;
-    height: 104.65px;
+    width: 148px;
+    height: 105px;
+    margin-left: 10px;
 }
 
 .header__contacts-address {
     max-width: 236.49px;
     justify-self: end;
+    font-style: normal;
+    line-height: 1.33;
+    margin-right: 24px;
 }
 
 .header__contacts-link {
@@ -86,7 +95,7 @@
 
 .main-text__block {
     position: absolute;
-    padding: 165px 50px 207px;
+    padding: 160px 50px 207px;
     width: 100%;
     height: 100%;
 }
@@ -97,22 +106,28 @@
     font-family: Raleway, serif;
     font-size: 100px;
     font-weight: 700;
-    line-height: 1.2835;
+    line-height: 1.33;
     text-transform: uppercase;
     z-index: 1;
 }
 
 .aligned-text {
     display: block;
-    letter-spacing: 24px;
+    letter-spacing: 30px;
+}
+
+.aligned-text_left {
+    text-align: left;
 }
 
 .aligned-text_center {
     text-align: center;
+    margin-right: -29px;
 }
 
 .aligned-text_right {
     text-align: right;
+    margin-right: -30px;
 }
 
 .cover__subtitle {
@@ -133,14 +148,14 @@
 }
 
 .cover__subtitle-text {
-    word-spacing: 20px;
+    word-spacing: 18px;
 }
 
 .cover__subtitle-button {
     background: transparent;
     border: 1px solid #fff;
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 32px;
     font-family: Raleway, serif;
     font-size: inherit;
     text-transform: uppercase;
@@ -164,9 +179,9 @@
 .lots__items {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    gap: 25px;
     list-style: none;
-    margin-top: 40px;
+    margin-top: 27px;
 }
 
 .lot-item {
@@ -221,14 +236,16 @@
     text-transform: lowercase;
     padding-left: 40px;
     margin-top: 30px;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 4px;
 }
 
 .about__section {
     display: grid;
     width: 100%;
     height: 595px;
-    margin: 120px 24px 0px;
-    grid-template-columns: 359px 1fr;
+    margin: 120px 24px 0px -24px;
+    grid-template-columns: 334px 1fr;
 }
 
 .about__logo {
@@ -239,7 +256,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 35px;
-    margin-left: 47px;
+    margin-left: 95px;
     border-radius: 50%;
 }
 
@@ -251,8 +268,8 @@
 .about-text__block {
     align-self: end;
     justify-self: end;
-    height: 449px;
-    width: 693px;
+    height: 460px;
+    width: 695px;
 }
 
 .about__title {
@@ -284,9 +301,10 @@
 
 .footer__contacts-address {
     flex-direction: column;
-    max-width: 260.7px;
     justify-self: start;
     padding-left: 50px;
+    font-style: normal;
+    line-height: 1.33;
 }
 
 .footer__contacts-link {
@@ -313,9 +331,6 @@
 .footer__menu-list {
     list-style: none;
     text-align: center;
-}
-
-.footer__menu-list-item {
 }
 
 .footer__menu-link {
