@@ -34,7 +34,8 @@
 
 .navigation__item:last-child {
     list-style: none;
-    margin-right: -10px;
+    //margin-right: -10px;
+    
 }
 
 .navigation__link-active {
@@ -121,12 +122,12 @@
 
 .aligned-text_center {
     text-align: center;
-    transform: translateX(15px);
+    padding-left: 22px;
 }
 
 .aligned-text_right {
     text-align: right;
-    transform: translateX(29px);
+    padding-left: 0px;
 }
 
 .cover__subtitle {
@@ -164,7 +165,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 180px 24px 0;
+    margin: 180px 0 0;   
+    padding: 0 24px;
 }
 
 .lots__title {
@@ -244,7 +246,7 @@
     width: 100%;
     height: 595px;
     margin: 120px 24px 0px 0px;
-    transform: translateX(-25px);
+    padding: 0 24px;
     grid-template-columns: 334px 1fr;
 }
 
@@ -256,7 +258,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 35px;
-    margin-left: 95px;
+    margin-left: 45px;
     border-radius: 50%;
 }
 
