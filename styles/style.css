@@ -33,9 +33,7 @@
 }
 
 .navigation__item:last-child {
-    list-style: none;
-    //margin-right: -10px;
-    
+    list-style: none;   
 }
 
 .navigation__link-active {
